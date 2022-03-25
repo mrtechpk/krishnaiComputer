@@ -1,5 +1,5 @@
 :root{
-    --gradient:linear-gradient(90deg, #f1c40f, #f39c12);
+    --gradient: linear-gradient(90deg, #001dede6, #9eace140);
 }
 
 *{
@@ -233,7 +233,7 @@ header #menu{
 
 .home h1{
     font-size: 6rem;
-    color:rgb(232, 49, 238);
+    color:rgb(255, 4, 4);
 }
 
 .home p{
@@ -559,7 +559,7 @@ header #menu{
 
     .home h1{
         font-size: 4rem;
-        color: #ecc62b;
+        color: rgb(18 7 195);
     }
 
     .home p{
@@ -587,3 +587,20 @@ header #menu{
     }
 
 }
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
