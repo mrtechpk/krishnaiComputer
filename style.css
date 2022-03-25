@@ -233,7 +233,7 @@ header #menu{
 
 .home h1{
     font-size: 6rem;
-    color:#666;
+    color:rgb(232, 49, 238);
 }
 
 .home p{
@@ -509,19 +509,6 @@ header #menu{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:768px){
@@ -572,6 +559,7 @@ header #menu{
 
     .home h1{
         font-size: 4rem;
+        color: #ecc62b;
     }
 
     .home p{
