@@ -233,7 +233,7 @@ header #menu{
 
 .home h1{
     font-size: 6rem;
-    color:rgb(255, 4, 4);
+    color:rgb(1, 6, 255);
 }
 
 .home p{
@@ -279,7 +279,10 @@ header #menu{
 
 .about .image img{
     height:65vh;
-    width:100%;
+    width:70%;
+    border-radius: 10%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 2%;
 }
 
 .about .content{
@@ -597,10 +600,9 @@ header #menu{
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
+        text-shadow:0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1ad6bd, 0 0 40px #3d17e4, 0 0 50px #e7dae1, 0 0 60px #e60073, 0 0 70px #e60073;    }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #fff, 0 0 30px #2f14e9, 0 0 140px #e32a33, 0 0 50px #a9d7f3, 0 0 60px #080a93, 0 0 270px #ffffff, 0 0 80px #f2fafd;
     }
   }
