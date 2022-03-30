@@ -1,5 +1,5 @@
 :root{
-    --gradient: linear-gradient(90deg, #001dede6, #9eace140);
+    --gradient: linear-gradient(90deg, #0a2ecfe6, #0df18740);
 }
 
 *{
@@ -71,10 +71,19 @@ section{
 }
 
 .heading{
-    color:#444;
+    color:rgb(17, 13, 211);
     padding:1rem;
     font-size: 4rem;
     text-align: center;
+
+
+
+
+    font-size: 5rem;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgb(18, 230, 148),
+               2px 2px 1px rgb(141, 19, 197);
+  text-align: center;
 }
 
 header{
@@ -232,15 +241,16 @@ header #menu{
 }
 
 .home h1{
-    font-size: 6rem;
+    font-size: 15rem;
     color:rgb(1, 6, 255);
 }
 
 .home p{
-    font-size: 1.9rem;
-    color:#999;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(15, 17, 189);
     padding:1rem 0;
-    width:70rem;
+    width:100rem;
 }
 
 .home .shape{
@@ -278,26 +288,56 @@ header #menu{
 }
 
 .about .image img{
-    height:65vh;
-    width:70%;
-    border-radius: 10%;
-    border-bottom-left-radius: 2%;
-    border-top-right-radius: 2%;
-}
+    height:100%;
+    width:100%;
+    border-radius: 30px;
 
+    border: 5px solid rgb(7, 26, 204);
+
+    background-color: rebeccapurple;
+  border-radius: 10px;
+ 
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-delay: 2s;
+   }
+   @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 .about .content{
     flex:1 1 40rem;
+
+
+    width: 100%;
+    height: 400px;
+    background-image: url(firefox.png),
+        url(bubbles.png),
+        linear-gradient(to right, rgb(3, 7, 230), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        left,
+        right;
 }
+
+
 
 .about .content h3{
     font-size: 3.5rem;
-    color:#666;
+    color:rgb(250, 248, 248);
+    animation-delay: 250ms;
 }
 
 .about .content p{
     font-size: 1.5rem;
-    color:#666;
-    padding:1rem 0;
+    color:rgb(105, 250, 9);
+    padding:7rem 2rem;
 }
 
 .course .box-container{
@@ -378,9 +418,12 @@ header #menu{
 
 .teacher{
     text-align: center;
-    background:url(../images/back.jpg) no-repeat;
-    background-size: cover;
+    background:url(../images/krishnai02.jpeg) no-repeat;
+        /* background-size: cover; */
     background-position: bottom;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 .teacher p{
