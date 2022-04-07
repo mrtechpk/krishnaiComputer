@@ -325,9 +325,6 @@ header #menu{
         left,
         right;
 }
-
-
-
 .about .content h3{
     font-size: 3.5rem;
     color:rgb(250, 248, 248);
@@ -415,7 +412,6 @@ header #menu{
     color:#fff;
     font-size: 3rem;
 }
-
 .teacher{
     text-align: center;
     background:url(../images/krishnai02.jpeg) no-repeat;
